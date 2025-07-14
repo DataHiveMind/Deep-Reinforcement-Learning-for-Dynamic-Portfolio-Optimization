@@ -1,0 +1,25 @@
+# Deep Learning Framework
+torch>=2.3.0              # PyTorch for building neural networks (ensure CUDA version matches if using GPU)
+torchvision>=0.18.0       # For image-related tasks (often bundled with torch)
+torchaudio>=2.3.0         # For audio-related tasks (often bundled with torch)
+
+# Reinforcement Learning Libraries
+gymnasium>=0.30.0         # Successor to OpenAI Gym, for creating the market environment
+stable-baselines3>=2.3.0  # (Optional, but highly recommended) For pre-implemented DRL algorithms like PPO, SAC, A2C
+
+# Data Manipulation and Analysis
+numpy>=1.26.0             # Fundamental package for numerical computation
+pandas>=2.2.0             # Data structures and analysis tools
+scikit-learn>=1.4.0       # Machine learning utilities (e.g., for data preprocessing)
+
+# Financial Data Fetching (Example)
+yfinance>=0.2.3           # For fetching historical market data from Yahoo Finance
+
+# Visualization and Logging
+matplotlib>=3.9.0         # For creating static, interactive, and animated visualizations
+seaborn>=0.13.0           # Statistical data visualization based on matplotlib
+tensorboard>=2.16.0       # For visualizing training metrics and model graphs
+tqdm>=4.66.0              # For displaying progress bars
+
+# Other Utilities
+python-dotenv>=1.0.0      # For managing environment variables (e.g., API keys)
